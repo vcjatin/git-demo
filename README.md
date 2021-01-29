@@ -1,2 +1,2 @@
-# local
+# Git Demo
 internal training project
