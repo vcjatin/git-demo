@@ -30,6 +30,7 @@ const server = http.createServer((req, res) => {
     res.end("<h1> Page not Found! </h1>");
   }
   console.log(path);
+  
 });
 
 server.listen(8000, "127.0.0.1", () => {
