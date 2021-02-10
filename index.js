@@ -25,6 +25,7 @@ const server = http.createServer((req, res) => {
       "Content-type": "text/html",
       "my-own-header": "hello world",
     });
+  }
 
     res.end("<h1> Page not Found! </h1>");
   }
